@@ -1,96 +1,21 @@
-# Sand Aggregates Management
+# Sand Aggregates
 
-A production-ready Django-based business platform for sand, aggregates, and construction material suppliers. This project transforms a static business website into a dynamic ordering and management system with catalog browsing, direct WhatsApp-based order flow, enquiry handling, and operational admin dashboard features.
+Premium construction material supplier website for sand, aggregates, and bulk building materials.
+
+A modern business website and ordering platform built for sand suppliers, aggregate dealers, and construction material businesses. The live site presents product categories, material details, pricing, enquiry requests, and WhatsApp-based ordering flow in a clean, professional industrial design.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
   <img src="https://img.shields.io/badge/Django-4.2-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django 4.2" />
-  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Active" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
 </p>
 
-## Overview
+## Quick Start
 
-This application is designed for companies dealing in:
+### 1. Clone the repository
 
-- River sand
-- M-Sand
-- Construction sand
-- Crushed stone aggregates
-- Road sub-base / GSB
-- Bulk material supply for construction projects
-
-It combines a premium industrial web design with a working business backend that supports leads, product catalog management, customer orders, and admin operations.
-
----
-
-## Key Features
-
-- Dynamic homepage with company branding and product highlights
-- Product catalog with category-wise listing
-- Material detail pages with specifications
-- WhatsApp-enabled inquiry and order follow-up flow
-- Enquiry/quotation submission system
-- Admin dashboard for order and enquiry tracking
-- Product availability and featured product controls
-- Site settings management for phone, address, social links, and business data
-- Environment-variable-based configuration for deployment
-- WhiteNoise support for production static file serving
-
----
-
-## Tech Stack
-
-- Python
-- Django 4.2+
-- SQLite (default development database)
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap utility classes
-- Pillow for image handling
-- WhiteNoise for static files
-
----
-
-## Project Structure
-
-```text
-Sand_aggregates/
-├── index.html
-├── css/
-├── js/
-├── assets/
-├── images/
-├── netlify.toml
-├── vercel.json
-├── DEPLOYMENT_GUIDE.md
-├── sand_aggregates/
-│   ├── manage.py
-│   ├── requirements.txt
-│   ├── .env.example
-│   ├── .env
-│   ├── db.sqlite3
-│   ├── pythonanywhere_wsgi.py
-│   ├── README.md
-│   ├── sand_aggregates/
-│   │   ├── __init__.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   ├── wsgi.py
-│   │   └── asgi.py
-│   ├── website/
-│   │   ├── admin.py
-│   │   ├── apps.py
-│   │   ├── forms.py
-│   │   ├── models.py
-│   │   ├── tests.py
-│   │   ├── urls.py
-│   │   ├── views.py
-│   │   ├── context_processors.py
-│   │   └── management/
-│   ├── static/
-│   ├── templates/
-│   ├── media/
-│   └── staticfiles/
-└── README.md
+```bash
+git clone https://github.com/AV31-VaghelaAlex/Sand_aggregates.git
+cd Sand_aggregates
